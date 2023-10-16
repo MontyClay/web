@@ -10,7 +10,7 @@ h1{font-size: 5em;color: brown; margin: 0%;}
 h2{ font-size: 4em;color: brown;margin: 0%;}
 h3{ font-size: 2.5em;}
 h4{ font-size: 2em;color: brown;margin: 0%;}
-h5{ font-size: 1.5em;}
+h5{ font-size: 1.5em; color: darkgoldenrod;}
 h6{ font-size: 0.7em;}
 p{color: darkgoldenrod;}
 
@@ -134,30 +134,77 @@ header nav{
 }
 
 
+
 #Home{
-background-image: url("media/Clayliens-X-Clayaveras-Animation.gif");
+    background-image: url("media/Logo Text Thin_.png");
     display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#Home .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    
+
+}
+
+
+#Home1{
+    background-image: url("media/Web-Banner-Halloween-2023.gif");
+    display:flex;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     background-position-y: center;
     background-position: bottom;
-    height: 800px;
+    height: 300px;
     width: 100%;
-   
+    padding-top: 70px;
+
 }
 
-#Home .container{
+#Home1 .container{
     display: flex;
-   justify-content: center;
-   padding: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    }
+
+
+  /* background-size: cover;
+   background-position: center center;
+   height: 450px;
+   width: 50px;
+   margin-top: 150px;
+   padding-left: 10px;*/
+
+#Home.img-container{
+ display: flex;
+ align-items: center;
+
 }
-
-
 
 
 
  #hero{
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; (esto<- me tajo el problema de el espacio grande abajo */
+    background-image: url("media/Clayliens-Animation-Zoom-BG.gif");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
     /* text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -225,8 +272,10 @@ background-image: url("media/Clayliens-X-Clayaveras-Animation.gif");
 
 #ClayMap .container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: 0px 0px;
+    font-size: large;
 }
 
 #ClayMap .img-container{
@@ -242,7 +291,8 @@ background-image: url("media/Clayliens-X-Clayaveras-Animation.gif");
 #ClayMap .text{
     text-align: center;
     padding-top: 0px;
-    padding-bottom: 170px;
+    padding-bottom: 70px;
+    size: 250px;
 }
 
 #mapinfo{
@@ -253,14 +303,15 @@ background-image: url("media/Clayliens-X-Clayaveras-Animation.gif");
 
 }
 #mapinfo .text{
+    flex-direction: row;
     text-align: left;
     padding: 80px;
     padding-top: 0%;
     color: darkgoldenrod;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
-    margin-left: 80px;
-    padding-bottom: 50px;
+    margin-left: 0px;
+    padding-bottom: 0px;
     display: flex;
     cursor: pointer;
 } 
@@ -289,7 +340,7 @@ background-image: url("media/Clayliens-X-Clayaveras-Animation.gif");
 
 #Team .img-container{
     display: flex;
-    background-image: url("media/Naked\ Angel.png");
+    background-image: url("media/Monty Clay Avatar.png");
     background-size: cover;
     background-position: center center;
     height: 450px;
